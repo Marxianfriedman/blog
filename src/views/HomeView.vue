@@ -3,10 +3,10 @@
     <h1 class="page-title">Welcome to the Blog</h1>
     <div class="divider"></div>
     <p class="page-content">
-      Let me tell you about the absolute dumpster fire that is studying Software Analysis 
+      Let me tell you about what is studying Software Analysis 
       and Development at SENA (Colombia’s so-called "National Learning Service"). 
       If you're thinking about enrolling, buckle up—because this is a masterclass 
-      in incompetence, and more than two years wasted potential.
+      in how not learning software developmnet, (but english yes), and more than two years wasted.
     </p>
   </div>
 </template>
