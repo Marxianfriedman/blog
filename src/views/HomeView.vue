@@ -6,7 +6,7 @@
       Let me tell you about what is studying Software Analysis 
       and Development at SENA (Colombia’s so-called "National Learning Service"). 
       If you're thinking about enrolling, buckle up—because this is a masterclass 
-      in how not learning software developmnet, (but english yes), and more than two years wasted.
+      in how not learning software developmnet, (but english yes the englesh component was excellent), almost more than two years wasted.
     </p>
   </div>
 </template>

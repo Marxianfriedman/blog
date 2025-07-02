@@ -19,14 +19,14 @@
       <article class="post-card">
         <h2 class="post-title">SENA's virtual learning environment</h2>
         <p class="post-excerpt">
-          I think SENA's virtual training environment is fine in the sense that it works. It may be a bit cumbersome, but for its fundamental purpose of scheduling tasks to advance through the course, it's fine. The flaw, however, is the organization and content of the courses. For some reason, SENA's training courses don't have a list of study topics anywhere. Maybe because the courses are so crap that it's not appropriate to show lists of study topics...
+          I think SENA's virtual training environment is fine in the sense that it works. It is may be a bit cumbersome, but for its fundamental purpose of scheduling tasks to advance through the course, it's fine. The flaw, however, is the organization and content of the courses. For some reason, SENA's training courses don't have a list of study topics anywhere. Maybe because the courses are so crap that it's not appropriate to show lists of study topics; at least the software development one, maybe others are good, but not this one.
         </p>
         <p>Some music to attenuate the disdain..  👇👇👍</p>
 
         <div class="audio-player">
             <audio controls>
             <source src="/media/Tropical.MP3" type="audio/mpeg">
-            Tu navegador no soporta el elemento de audio.
+            
         </audio>
       </div>
 
@@ -39,10 +39,10 @@
       <!-- Post 3 -->
       <article class="post-card">
         <h2 class="post-title"> Importance of learning English</h2>
-        <p>I've always liked English classes. Learning foreign languages ​​is a way to get to know cultures different from our own. It's wonderful. It also opens up new opportunities for us, such as working in call centers, being tourist guides for gringos, and perhaps even serving as a text translator. It's great to appreciate Anglo-Saxon culture and look like they see the live, the american way of life.
+        <p>I've always liked English classes. Learning foreign languages ​​is a way to get to know cultures different from our own. It's wonderful. It also opens up new opportunities for us, such as working in call centers, being tourist guides for gringos, work as a englesh teacher and perhaps even serving as a text translator. It's great to appreciate Anglo-Saxon culture and look like they see the life, the american way of life.
         </p>
 
-        <p>Yes, the american way of life.😊</p>
+        <p>Yes, the american way of life.</p>
 
         <div class="video-player">
         <video controls width="100%">
