@@ -7,10 +7,12 @@
       <article class="post-card">
         <h2 class="post-title">General Technologist</h2>
         <p class="post-excerpt">For most of the course, time was wasted on research papers, very little code, very little introduction to programming languages. In my opinion, it would be better to focus on just one, since the idea is to get a job after completing a technical or technological course, I suppose, and not just have a crappy qualification papper that only serves to validate a university. Well, I suppose that, but what does it matter?, you have to type.</p>
-        <img src="/media/Jim Carrey Reaction GIF.gif" alt="Jim Carrey Reaction" class="post-gif">
+        <div class="media-container">
+          <img src="/media/Jim Carrey Reaction GIF.gif" alt="Jim Carrey Reaction" class="post-gif">
+        </div>
 
         <div class="post-meta">
-          <span class="post-date">July 5, 2024</span>
+          <span class="post-date">July 3, 2025</span>
           <span class="post-tag vue-tag">Vue</span>
         </div>
       </article>
@@ -23,15 +25,16 @@
         </p>
         <p>Some music to attenuate the disdain..  👇👇👍</p>
 
-        <div class="audio-player">
+        <div class="media-container">
+          <div class="audio-player">
             <audio controls>
-            <source src="/media/Tropical.MP3" type="audio/mpeg">
-            
-        </audio>
-      </div>
+              <source src="/media/Tropical.MP3" type="audio/mpeg">
+            </audio>
+          </div>
+        </div>
 
         <div class="post-meta">
-          <span class="post-date">July 3, 2024</span>
+          <span class="post-date">July 3, 2025</span>
           <span class="post-tag deployment-tag">Deployment</span>
         </div>
       </article>
@@ -44,15 +47,45 @@
 
         <p>Yes, the american way of life.</p>
 
-        <div class="video-player">
-        <video controls width="100%">
-          <source src="/media/Woman opens fire on cops in police station.MP4" type="video/mp4">
-          Tu navegador no soporta el elemento de video.
-        </video>
-      </div>
+        <div class="media-container">
+          <div class="video-player">
+            <video controls>
+              <source src="/media/Woman opens fire on cops in police station.MP4" type="video/mp4">
+            </video>
+          </div>
+        </div>
 
         <div class="post-meta">
-          <span class="post-date">June 28, 2024</span>
+          <span class="post-date">July 3, 2025</span>
+          <span class="post-tag tools-tag">Tools</span>
+        </div>
+      </article>
+
+      <!-- Post 4 -->
+      <article class="post-card">
+        <h2 class="post-title"> My Things (mind map and writings in English)</h2>
+        <p>
+          Below we will see works done during the course to approve them, these are two examples of evidence, a mental map about the learning environment, and a writing about personal aspects.
+        </p>
+
+        <p>
+          I have learned a lot from this blog and I want to show some of the tasks I have done to improve my English.
+        </p>
+
+        <div class="media-container">
+          <img src="/media/Mapa mental.png" alt="Mental Map" class="post-image">
+        </div>
+
+        <div class="media-container">
+          <img src="/media/ingles 1.png" alt="inles 1" class="post-image">
+        </div>
+
+        <div class="media-container">
+          <img src="/media/ingles 2.png" alt="ingles 2" class="post-image">
+        </div>
+
+        <div class="post-meta">
+          <span class="post-date">July 3, 2025</span>
           <span class="post-tag tools-tag">Tools</span>
         </div>
       </article>
@@ -68,75 +101,117 @@
   --light: #f8f9fa;
   --dark: #2c3e50;
   --gray: #e9ecef;
+  --shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  --shadow-hover: 0 5px 15px rgba(0, 0, 0, 0.15);
 }
 
-/* Estilos base */
+/* Reset y estilos base */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .blog-container {
-  max-width: 800px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 2rem 1.5rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: var(--dark);
+  line-height: 1.6;
 }
 
 .blog-title {
-  color: #35495e;
+  color: var(--secondary);
   text-align: center;
-  margin-bottom: 3rem;
-  font-size: 2.5rem;
+  margin-bottom: 2.5rem;
+  font-size: clamp(1.8rem, 5vw, 2.5rem);
   position: relative;
+  padding-bottom: 0.5rem;
 }
 
 .blog-title::after {
   content: '';
   display: block;
-  width: 100px;
+  width: 80px;
   height: 4px;
   background: var(--primary);
-  margin: 0.5rem auto;
+  margin: 0.5rem auto 0;
 }
 
-/* Tarjetas de posts */
+/* Contenedor de posts */
 .posts-wrapper {
   display: grid;
+  grid-template-columns: 1fr;
   gap: 2rem;
 }
 
+/* Tarjetas de posts */
 .post-card {
   background: white;
   border-radius: 8px;
-  padding: 2rem;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 1.8rem;
+  box-shadow: var(--shadow);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   border-left: 4px solid var(--primary);
+  overflow: hidden;
 }
-
 
 .post-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--shadow-hover);
 }
 
 .post-title {
-  color: #35495e;
+  color: var(--secondary);
   margin-bottom: 1rem;
-  font-size: 1.5rem;
+  font-size: clamp(1.3rem, 4vw, 1.5rem);
+  line-height: 1.3;
 }
 
-.post-excerpt {
+.post-excerpt, .post-card p {
   color: #555;
-  line-height: 1.6;
   margin-bottom: 1.5rem;
+  font-size: 1rem;
 }
 
-.post-list {
-  padding-left: 1.5rem;
-  line-height: 1.8;
-  color: #555;
+/* Contenedor para medios (imágenes, video, audio) */
+.media-container {
+  margin: 1.5rem 0;
+  width: 100%;
+  border-radius: 6px;
+  overflow: hidden;
 }
 
-.post-list li {
-  margin-bottom: 0.5rem;
+.post-gif, .post-image {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: contain;
+  border-radius: 6px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Reproductores multimedia */
+.audio-player, .video-player {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.audio-player audio {
+  width: 100%;
+}
+
+.video-player {
+  background: #000;
+}
+
+.video-player video {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  display: block;
 }
 
 /* Metadatos */
@@ -147,6 +222,8 @@
   margin-top: 1.5rem;
   font-size: 0.9rem;
   color: #777;
+  flex-wrap: wrap;
+  gap: 0.5rem;
 }
 
 .post-date {
@@ -158,6 +235,7 @@
   border-radius: 20px;
   font-size: 0.8rem;
   font-weight: bold;
+  white-space: nowrap;
 }
 
 .vue-tag {
@@ -175,47 +253,44 @@
   color: #df4a4a;
 }
 
-/* Código */
-code {
-  background: #f0f0f0;
-  padding: 0.2rem 0.4rem;
-  border-radius: 4px;
-  font-family: 'Courier New', monospace;
-  font-size: 0.9em;
-  color: #d63384;
-}
-
-/* Responsive */
+/* Media queries para responsividad */
 @media (max-width: 768px) {
   .blog-container {
-    padding: 1rem;
+    padding: 1.5rem 1rem;
   }
   
   .post-card {
-    padding: 1.5rem;
+    padding: 1.3rem;
+  }
+  
+  .blog-title::after {
+    width: 60px;
   }
 }
 
-.video-player {
-  margin: 1rem 0;
-  width: 100%;
-  max-width: 600px; /* Máximo ancho para pantallas grandes */
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 8px;
-  overflow: hidden;
-  background: #000;
+@media (max-width: 480px) {
+  .post-card {
+    padding: 1rem;
+  }
+  
+  .post-meta {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .post-tag {
+    margin-top: 0.5rem;
+  }
 }
 
-.video-player video {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-@media (max-width: 768px) {
-  .video-player {
-    border-radius: 4px;
+/* Mejoras para pantallas grandes */
+@media (min-width: 992px) {
+  .posts-wrapper {
+    grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
+  }
+  
+  .post-card {
+    padding: 2rem;
   }
 }
 </style>
