@@ -89,6 +89,48 @@
           <span class="post-tag tools-tag">Tools</span>
         </div>
       </article>
+
+      <!-- Post 5 -->
+      <article class="post-card">
+        <h2 class="post-title"> Audio</h2>
+        <p>
+          The following audio is about the novel 1984, the first paragraphs are part of the life of its author, Erick Arthur Blair, better known as George Orwell, I leave a link to download the novel yes, it is very good and in my opinion it is still relevant in terms of how the world works today.
+        </p>
+
+        <div class="media-container">
+          <div class="audio-player">
+            <audio controls>
+              <source src="/media/audio.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+        </div>
+
+        
+        <a href="https://dn790002.ca.archive.org/0/items/NineteenEightyFour-Novel-GeorgeOrwell/orwell1984.pdf" target="-Blank">link to download 1984</a>
+        
+        <div class="media-container">
+          <img src="/media/book.png" alt="inles 1" class="post-image">
+        </div>
+
+
+        <div class="media-container">
+          <div class="audio-player">
+            <audio controls>
+              <source src="/media/primer capitulo.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+        </div>
+
+        <div class="media-container">
+          <img src="/media/chapter1.png" alt="inles 1" class="post-image">
+        </div>
+        
+
+        <div class="post-meta">
+          <span class="post-date">July 5, 2025</span>
+          <span class="post-tag tools-tag">Tools</span>
+        </div>
+      </article>
     </div>
   </div>
 </template>
