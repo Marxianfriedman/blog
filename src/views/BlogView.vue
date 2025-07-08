@@ -97,6 +97,9 @@
           The following audio is about the novel 1984, the first paragraphs are part of the life of its author, Erick Arthur Blair, better known as George Orwell, I leave a link to download the novel yes, it is very good and in my opinion it is still relevant in terms of how the world works today.
         </p>
 
+
+        
+
         <div class="media-container">
           <div class="audio-player">
             <audio controls>
@@ -107,6 +110,12 @@
 
         
         <a href="https://dn790002.ca.archive.org/0/items/NineteenEightyFour-Novel-GeorgeOrwell/orwell1984.pdf" target="-Blank">link to download 1984</a>
+
+        <br><br>
+
+        <p>If you wanted a video, here's the link, watch the video and approve the evidence. 👇👇👇👇👇👇</p>
+
+        <a href="https://www.loom.com/share/1fe453577299489cae90aaba9e9ce4f0?sid=fd9f38fa-95ad-422f-9ee6-e5d71a462ded" target="-Blank">link to watch video where I talk about the novel </a>
         
         <div class="media-container">
           <img src="/media/book.png" alt="inles 1" class="post-image">
