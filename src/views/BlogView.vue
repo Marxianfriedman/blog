@@ -6,7 +6,8 @@
       <!-- Post 1 -->
       <article class="post-card">
         <h2 class="post-title">General Technologist</h2>
-        <p class="post-excerpt">For most of the course, time was wasted on research papers, very little code, very little introduction to programming languages. In my opinion, it would be better to focus on just one, since the idea is to get a job after completing a technical or technological course, I suppose, and not just have a crappy qualification papper that only serves to validate a university. Well, I suppose that, but what does it matter?, you have to type.</p>
+        <p class="post-excerpt">Overall, and in my opinion, the software analysis and development technology course isn't bad. It would be nice if it focused on a single programming language until you could master at least one framework, but what does it matter?
+        The course is good..</p>
         <div class="media-container">
           <img src="/media/Jim Carrey Reaction GIF.gif" alt="Jim Carrey Reaction" class="post-gif">
         </div>
@@ -21,7 +22,7 @@
       <article class="post-card">
         <h2 class="post-title">SENA's virtual learning environment</h2>
         <p class="post-excerpt">
-          I think SENA's virtual training environment is fine in the sense that it works. It is may be a bit cumbersome, but for its fundamental purpose of scheduling tasks to advance through the course, it's fine. The flaw, however, is the organization and content of the courses. For some reason, SENA's training courses don't have a list of study topics anywhere. Maybe because the courses are so crap that it's not appropriate to show lists of study topics; at least the software development one, maybe others are good, but not this one.
+          The current platform and the previous one that I also used throughout the course, were fine for me.
         </p>
         <p>Some music to attenuate the disdain..  👇👇👍</p>
 
@@ -42,10 +43,9 @@
       <!-- Post 3 -->
       <article class="post-card">
         <h2 class="post-title"> Importance of learning English</h2>
-        <p>I've always liked English classes. Learning foreign languages ​​is a way to get to know cultures different from our own. It's wonderful. It also opens up new opportunities for us, such as working in call centers, being tourist guides for gringos, work as a englesh teacher and perhaps even serving as a text translator. It's great to appreciate Anglo-Saxon culture and look like they see the life, the american way of life.
+        <p>I've always liked English classes. Learning foreign languages ​​is a way to get to know cultures different from our own. It's wonderful. It also opens up new opportunities for us, such as working in call centers, being tourist guides for gringos, work as a english teacher and perhaps even serving as a text translator. It's great to appreciate Anglo-Saxon culture and look like they see the life, the american way of life.
         </p>
 
-        <p>Yes, the american way of life.</p>
 
         <div class="media-container">
           <div class="video-player">
@@ -94,7 +94,7 @@
       <article class="post-card">
         <h2 class="post-title"> Audio</h2>
         <p>
-          The following audio is about the novel 1984, the first paragraphs are part of the life of its author, Erick Arthur Blair, better known as George Orwell, I leave a link to download the novel yes, it is very good and in my opinion it is still relevant in terms of how the world works today.
+          The following audio is about the novel 1984, the first paragraphs are part of the life of its author, Erick Arthur Blair, better known as George Orwell, I leave a link to download the novel, it is very good and in my opinion it is still relevant in terms of how the world works today.
         </p>
 
 
@@ -113,7 +113,7 @@
 
         <br><br>
 
-        <p>If you wanted a video, here's the link, watch the video and approve the evidence. 👇👇👇👇👇👇</p>
+        <p>See my video speaking about it in english, do click on the follow link <br>    👇👇 </p>
 
         <a href="https://www.loom.com/share/1fe453577299489cae90aaba9e9ce4f0?sid=fd9f38fa-95ad-422f-9ee6-e5d71a462ded" target="-Blank">link to watch video where I talk about the novel </a>
         

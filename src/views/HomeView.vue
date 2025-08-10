@@ -3,10 +3,7 @@
     <h1 class="page-title">Welcome to the Blog</h1>
     <div class="divider"></div>
     <p class="page-content">
-      Let me tell you about what is studying Software Analysis 
-      and Development at SENA (Colombia’s so-called "National Learning Service"). 
-      If you're thinking about enrolling, buckle up—because this is a masterclass 
-      in how not learning software developmnet, (but english yes, the english component was excellent), almost more than two years wasted.
+      Hello, in this blog I am going to tell you about my experience studying at SENA and show you the works I did for the English component ( a video audio and texts). 
     </p>
   </div>
 </template>
